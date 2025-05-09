@@ -1,0 +1,13 @@
+¿Qué es un decorador en Python y para qué se utiliza comúnmente?
+
+Un decorador en Python es una función que recibe otra función como argumento, 
+añade funcionalidad adicional a esa función sin modificar su estructura original y 
+devuelve una nueva función o el mismo objeto modificado.
+
+¿Como se aplica a una función?
+Se aplica usando la sintaxis @decorador
+
+¿Qué función interna suele tener un decorador?
+En Python, un decorador generalmente incluye una función interna (a menudo llamada wrapper o envoltura). 
+Esta función es la que realmente envuelve y ejecuta la función original, añadiendo funcionalidad adicional 
+antes y/o después de la ejecución de la función decorada.
